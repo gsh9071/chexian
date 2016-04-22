@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>注册</title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" charset="UTF-8">
+      	mui.init();
+    </script>
+</head>
+<body class="re-bg">
+	<div class="register">
+		<form action="" method="post">
+            <label for="phone">手机号</label>
+            <input type="text" id="phone" name="phone" placeholder="请输入您的手机号">
+            <label for="refereephone">推荐人手机号</label>
+            <input type="text" id="refereephone" name="refereephone" placeholder="请输入推荐人的手机号">
+            
+            <span style="float: left;">
+            	<input type="text" id="code" name="code" placeholder="请输入验证码" style="float: left;">
+            	<button type="submit" class="btn-yzm">获取验证码</button>
+            </span>
+            <div style="clear: both;"></div>
+            
+            <label for="password">密码</label>
+            <input type="password" id="password" name="password">
+            <div class="re-checkbox">
+  				<input type="checkbox" name="用户协议" id="re-box" />
+		        <label for="re-box">我已经阅读并同意用户协议</label>
+  			</div>
+            <button type="submit" class="btn-login mt10">注册</button>
+        </form>
+
+	</div>
+</body>
+</html>
